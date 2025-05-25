@@ -45,7 +45,7 @@ cd ../
 nano start_debian.sh
 ```
 
-Copy and paste the following:
+Copy and paste the following: or just wget start_debian.sh
 
 ```
 #!/bin/sh
@@ -192,8 +192,7 @@ busybox chroot $DEBIANPATH /bin/su - droidmaster -c 'export DISPLAY=:0 && export
 
 ```
 
-wget https://raw.githubusercontent.com/LinuxDroidMaster/Termux-Desktops/main/scripts/chroot/debian/startxfce4_chrootDebian.sh
-
+wget https://raw.githubusercontent.com/StevenSteel7/TermuxDebianSetup/refs/heads/main/Scripts/debian_run.sh
 chmod +x startxfce4_chrootDebian.sh
 
 ./startxfce4_chrootDebian.sh
