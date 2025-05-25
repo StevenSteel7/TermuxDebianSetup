@@ -169,6 +169,7 @@ sudo apt install xfce4 dbus-x11 -y
 sudo add-apt-repository ppa:mozillateam/ppa -y
 sudo apt-get update -y
 sudo apt-get install firefox-esr -y
+sudo apt install terminator -y
 exit
 exit
 ```
